@@ -29,4 +29,5 @@ public class Developer extends User{
         }
         System.out.println("can't find desired developer!");
     }
+    // end of final session commit
 }
