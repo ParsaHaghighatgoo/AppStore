@@ -51,11 +51,13 @@ public class User {
                     "\n4.buy a app: " +
                     "\n5.show my BuyLogs: " +
                     "\n6.show a developer profile");
+                    // add show version history for app
         } else if (logedInUser.role.equals("Developer")) {
 
         } else if (logedInUser.role.equals("Admin")) {
             System.out.println("0.sign out " +
                     "\n1.show users buy logs: ");
+                    
         }
     }
 
